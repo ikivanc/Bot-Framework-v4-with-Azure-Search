@@ -53,7 +53,7 @@ namespace Botv4AzureSearch.Dialogs
 
             foreach (var res in searchResults.Results)
             {
-                await turnContext.SendActivityAsync($"Squad Paragpraph: {res.Document.paragraph_text}");
+                await turnContext.SendActivityAsync($"Squad Paragraph: {res.Document.paragraph_text}");
             }
         }
     }
